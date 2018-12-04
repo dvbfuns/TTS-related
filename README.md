@@ -4,6 +4,11 @@ Text-To-Sound related tools/paper/materials
 Mp3 转 wav
 ffmpeg -i 111.mp3 -acodec pcm_s16le -ac 1 -ar 16000 out.wav
 
+音频后处理工具：
+http://www.surina.net/soundtouch/soundstretch.html
+https://github.com/wwmm/pulseeffects
+
+
 Wav info
 In linux:
   cmd:    file a.wav
